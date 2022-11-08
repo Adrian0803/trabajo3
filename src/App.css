@@ -1,0 +1,61 @@
+#root {
+  margin: 0 ;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  background: #05292E;
+}
+
+li{
+  list-style: none;
+
+}
+button{
+  border-radius: 50%;
+}
+input{
+  border-radius: 4%;
+}
+
+.contenedor{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+.boton{
+  margin-top: 8rem;
+}
+.informacionPlaneta{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  font-size: 12px;
+  gap: 2rem;
+  color: white;
+
+}
+
+.contenedorLocation{
+  
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 16px;
+  background-color: #032125;
+  text-align: left;
+  color: aliceblue;
+
+}
+.tex{
+  display: flex;
+  flex-direction: column;
+}
+.n1{
+  font-size: 12px;
+  color: rgb(73, 70, 67);
+}
